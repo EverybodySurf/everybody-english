@@ -15,7 +15,7 @@ export const HeroHeader = () => {
 
     const menuItems = [
         { name: t('Features'), href: '#features-1' },
-        { name: t('Experience'), href: '#content-3' },
+        { name: t('Experiential learning'), href: '#content-3' },
         { name: t('Practice/English Buddy'), href: '#chatbot' },
     //  { name: t('About'), href: '#link' },
     ]
