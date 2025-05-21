@@ -75,7 +75,7 @@ export default function Chatbot() {
             value={input}
             onChange={e => setInput(e.target.value)}
             onKeyDown={e => e.key === 'Enter' && sendMessage()}
-            placeholder="What would you like to learn?"
+            placeholder="Say hello..."
             className="flex-1 rounded-xl border pl-4 py-2"
           />
           <button 

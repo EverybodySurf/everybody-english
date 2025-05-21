@@ -15,8 +15,8 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
   const [response] = await client.synthesizeSpeech({
     input: { text },
-    voice: { languageCode: 'en-US', ssmlGender: 'FEMALE' },
-    audioConfig: { audioEncoding: 'LINEAR16' },
+    voice: { languageCode: 'en-US', name: 'en-US-Chirp3-HD-Achernar' },
+    audioConfig: { audioEncoding: 'LINEAR16', speakingRate: 1.0 },
   });
 
   if (!response.audioContent) {
