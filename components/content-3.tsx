@@ -20,7 +20,7 @@ export default function ContentSection() {
                 <div className="grid gap-6 md:grid-cols-2 md:gap-12">
                     <h2 className="text-4xl font-medium">{t('Practice English as we sip coffee, hike, or surf!')}</h2>
                     <div className="space-y-6">
-                        <p>{t('Be immersed in English as we engage in interesting activities and experiences. Experiential learning is one of the best ways to retain information.')}</p>
+                        <p>{t('25€/1hr in person & 24€/1hr, 12€/30min, or 6€/15min through video call. Be immersed in English as we engage in interesting activities and experiences. Experiential learning is one of the best ways to retain information.')}</p>
 
                         <Button asChild variant="secondary" size="sm" className="gap-1 pr-1.5">
                             <Link 

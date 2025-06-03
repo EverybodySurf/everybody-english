@@ -75,14 +75,13 @@ export default function Chatbot() {
             value={input}
             onChange={e => setInput(e.target.value)}
             onKeyDown={e => e.key === 'Enter' && sendMessage()}
-            placeholder="Say hello..."
+            placeholder={t("Say hello...")}
             className="flex-1 rounded-xl border pl-4 py-2"
           />
           <button 
             onClick={sendMessage}
             className="rounded-xl bg-secondary text-zinc-50 px-4 py-2 hover:bg-secondary/80 transition-colors"
-          >
-            Send
+          >{t("Send")}
           </button>
           <Button
             type="button"
